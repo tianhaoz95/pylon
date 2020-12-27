@@ -3,7 +3,11 @@
 ### Boot up K8 cluster
 
 ```bash
-minikube start --cpus 6 --memory 32768 --disk-size=120g --driver=none
+minikube start --cpus 6 --memory 32768 --disk-size=120g
+```
+
+```bash
+sudo minikube start --driver=none --apiserver-ips 127.0.0.1 --apiserver-name localhost
 ```
 
 ### Run Nvidia plugin for K8 cluster
