@@ -10,6 +10,8 @@ minikube start --cpus 6 --memory 32768 --disk-size=120g
 sudo minikube start --driver=none --apiserver-ips 127.0.0.1 --apiserver-name localhost
 ```
 
+Note: this requires `sudo minikube delete` to clean up.
+
 ### Run Nvidia plugin for K8 cluster
 
 #### With `kubectl` (for non-production)
