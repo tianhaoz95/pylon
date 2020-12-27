@@ -3,7 +3,7 @@
 ### Boot up K8 cluster
 
 ```bash
-minikube start --cpus 6 --memory 32768 --disk-size=120g --driver docker
+minikube start --cpus 6 --memory 32768 --disk-size=120g --driver=none
 ```
 
 ### Run Nvidia plugin for K8 cluster
