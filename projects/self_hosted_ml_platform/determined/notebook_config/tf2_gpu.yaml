@@ -1,0 +1,5 @@
+description: tf-2-gpu
+environment:
+  image: determinedai/environments:cuda-10.1-pytorch-1.4-tf-2.2-gpu-0.8.0
+resources:
+  slots: 1

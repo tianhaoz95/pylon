@@ -1,0 +1,1 @@
+Check https://docs.determined.ai/latest/reference/command-notebook-config.html#configuration-settings.
